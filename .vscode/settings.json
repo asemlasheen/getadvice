@@ -1,0 +1,13 @@
+{
+  "terminal.integrated.profiles.windows": {
+    "PowerShell (Admin)": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": ["-Command", "Start-Process PowerShell -Verb RunAs"]
+    },
+    "Command Prompt (Admin)": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": ["/k", "runas /user:Administrator cmd"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell (Admin)"
+}
